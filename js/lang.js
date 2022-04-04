@@ -147,6 +147,14 @@ const langArr = {
         "ru": "Закажи Бьюти Вит прямо сейчас и мы доставим в течении 24 часов <br> БЕСПЛАТНО</span>",
         "uz": "ByutiVit ga hoziroq buyurtma bering va biz uni 24 soat ichida <br> BEPUL yetkazib beramiz</span>" ,
     },
+    "saleform__button-mob":  {
+        "ru": "Отправить заявку",
+        "uz": "Ariza qoldirish",
+    },
+    "saleform__button-tab":  {
+        "ru": "Подать заявку",
+        "uz": "Ariza qoldirish",
+    },
     "certificate__title":  {
         "ru": "Сертификаты соответствия",
         "uz": "Muvofiqlik sertifikatlari" ,
