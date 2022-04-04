@@ -176,8 +176,27 @@ img{
 }
 
 .header{
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media(min-width: 1440px){
+            align-items: flex-start;
+        }
+    }
     &__logo{
         max-width: 8.9rem;
+    }
+    .change-lang{
+        color: #F74F99;
+        padding: 0 9px 0 10px;
+        border: none;
+        background: #FFFFFF;
+        border-radius: 8px;
+        font-size: 16px;
+        line-height: 20px;
+        width: 62px;
+        height: 30px;
     }
 }
 
@@ -270,7 +289,7 @@ img{
             width: 34%;
             max-width: 38rem;
             right: 10%;
-            top: 50%;
+            top: 54%;
             transform: translate(0, -50%);
         }
       @media(min-width: 1440px){
@@ -345,6 +364,124 @@ img{
         }
     }
     
+}
+
+
+.advantages{
+    padding: 5.5rem 0;
+    background: url("../img/advantages/bg.png") left 48.7% top 20% / 295% no-repeat;
+    position: relative;
+    @media(min-width: 1440px){
+        padding: 2rem 0 3rem;
+    background: url("../img/advantages/bg.png") left 48% top 18% / 178% no-repeat;
+
+    }
+    &__img{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 3.5rem;
+        @media(min-width: 1440px){
+            display: block;
+            margin: 0 auto;
+            max-width: 71.5%;
+        }
+    }
+    &__items{
+        display: flex;
+        flex-wrap: wrap;
+        @media(min-width: 991px){
+            justify-content: space-between;
+        }
+        &-item{
+            width: 100%;
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            @media(min-width: 991px){
+                width: 40%;
+            }
+            @media(min-width: 1440px){
+                position: absolute;
+                max-width: 34.4rem;
+                &:nth-child(1){
+                    top: 193px;
+                    transform: translate(15%, 0);
+                    text-align: right;
+                    max-width: 534px;
+                    img {
+                        order: 1;
+                    }
+                }
+                &:nth-child(2){
+                    top: 390px;
+                    transform: translate(-5%, 0);
+                    text-align: right;
+                    max-width: 526px;
+                    img {
+                        order: 1;
+                    }
+                }
+                &:nth-child(3){
+                    top: 630px;
+                    transform: translate(-20%, 0);
+                    text-align: right;
+                    max-width: 447px;
+                    img {
+                        order: 1;
+                    }
+                }
+                &:nth-child(4){
+                    top: 201px;
+                    right: 10%;
+                    transform: translate(-10%, 0);
+                    max-width: 379px;
+                }
+                &:nth-child(5){
+                    top: 373px;
+                    right: 2%;
+                    transform: translate(-10%, 0);
+                    max-width: 384px;
+                }
+                &:nth-child(6){
+                    top: 549px;
+                    right: 0%;
+                    transform: translate(-7%, 0);
+                    max-width: 393px;
+                }
+            }
+            @media(min-width: 1600px){
+                &:nth-child(4){
+                    max-width: 400px;
+                }
+                &:nth-child(5){
+                    max-width: 450px;
+
+                }
+                &:nth-child(6){
+                    max-width: 450px;
+
+                }
+            }
+            @media(min-width: 1880px){
+                &:nth-child(4){
+                    max-width: 517px;
+                }
+                &:nth-child(5){
+                    max-width: 517px;
+                }
+                &:nth-child(6){
+                    max-width: 550px;
+
+                }
+            }
+        }
+        &-img{
+            width: 100%;
+            max-width: 5.5rem;
+            max-height: 5.5rem;
+        }
+        &-text{}
+    }
 }
 
 
