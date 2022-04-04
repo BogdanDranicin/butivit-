@@ -292,10 +292,15 @@ img{
             top: 54%;
             transform: translate(0, -50%);
         }
-      @media(min-width: 1440px){
-          right: 6%;
-          max-width: 32rem;
-      }
+        @media(min-width: 1440px){
+            right: 6%;
+            max-width: 32rem;
+        }
+        @media(min-width: 1800px){
+            max-width: 540px;
+            transform: translate(100%, -50%);
+            right: 40%;
+        }
     }
     @media(min-width: 991px){
         .form{
@@ -465,12 +470,19 @@ img{
             @media(min-width: 1880px){
                 &:nth-child(4){
                     max-width: 517px;
+                    right: 50%;
+                    transform: translate(140%, 0);
+
                 }
                 &:nth-child(5){
                     max-width: 517px;
+                    right: 50%;
+                    transform: translate(165%, 0);
                 }
                 &:nth-child(6){
                     max-width: 550px;
+                    right: 50%;
+                    transform: translate(170%, 0);
 
                 }
             }
@@ -536,6 +548,11 @@ img{
             top: 50%;
             transform: translate(0, -50%);
             max-width: 45%;
+        }
+        @media(min-width: 1800px){
+            max-width: 842px;
+            transform: translate(100%, -50%);
+            right: 50%;
         }
     }
     &__btn{
@@ -649,6 +666,9 @@ img{
     @media(min-width: 1440px){
         padding: 12.8rem 0 8rem;
         background: url('../img/may/women-desc.png') right 8% bottom / 45% no-repeat, url('../img/may/bg-tab.png') center top / 100% 100% no-repeat;
+    }
+    @media(min-width: 1800px){
+        background: url('../img/may/women-desc.png') right 20% bottom / 800px no-repeat, url('../img/may/bg-tab.png') center top / 100% 100% no-repeat;
     }
     &__container{
         display: flex;
