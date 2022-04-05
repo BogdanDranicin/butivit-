@@ -6,11 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>BYUTI VIT</title>
+    <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
 </head>
 <body>
-    
-    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <div class="popup" style="display: none;" id="hidden">
+        <form name="feedback" method="POST" action="" class="main__form form">
 
+            <div class="form__title lng-form-title-popup">Оставьте заявку <br> и измените свою жизнь</div>
+            <div class="form__inputs">
+                <div class="form__inputs-langs lng-form__input_1-popup"><input type="text" name="name" required="required" placeholder="Имя" class="form__input "></div>
+                <div class="form__inputs-langs lng-form__input_2-popup"><input type="text" name="phone" required="required" placeholder="Телефон" class="form__input"></div>
+                
+            </div>
+            <button type="submit" name="submit_btn" class="button form__button-mob lng-form__button-mob-popup">Оставить заявку</button>
+            <button type="submit" name="submit_btn" class="button form__button-tab lng-form__button-tab-popup">Подать заявку</button>
+        </form>
+        <button type="button" data-fancybox-close="" class="fancybox-button fancybox-close-small db"  title="Close"><svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24"><path d="M27.948,20.878L40.291,8.536c1.953-1.953,1.953-5.119,0-7.071c-1.951-1.952-5.119-1.952-7.07,0L20.878,13.809L8.535,1.465   c-1.951-1.952-5.119-1.952-7.07,0c-1.953,1.953-1.953,5.119,0,7.071l12.342,12.342L1.465,33.22c-1.953,1.953-1.953,5.119,0,7.071   C2.44,41.268,3.721,41.755,5,41.755c1.278,0,2.56-0.487,3.535-1.464l12.343-12.342l12.343,12.343   c0.976,0.977,2.256,1.464,3.535,1.464s2.56-0.487,3.535-1.464c1.953-1.953,1.953-5.119,0-7.071L27.948,20.878z"></path></svg></button>
+    </div>
+   
     <section class="main">
         <header class="header">
             
@@ -31,8 +48,9 @@
 
                 <div class="form__title lng-main__form-title">Оставьте заявку <br> и измените свою жизнь</div>
                 <div class="form__inputs">
-                    <input type="text" name="name" required="required" placeholder="Имя" class="form__input lng-main__form__input_1">
-                    <input type="text" name="phone" required="required" placeholder="Телефон" class="form__input lng-main__form__input_2">
+                    <div class="form__inputs-langs lng-main__form__input_1"><input type="text" name="name" required="required" placeholder="Имя" class="form__input "></div>
+                    <div class="form__inputs-langs lng-main__form__input_2"><input type="text" name="phone" required="required" placeholder="Телефон" class="form__input"></div>
+                    
                 </div>
                 <button type="submit" name="submit_btn" class="button form__button-mob lng-form__button-mob"></button>
                 <button type="submit" name="submit_btn" class="button form__button-tab lng-form__button-tab"></button>
@@ -91,7 +109,7 @@
                 <li class="symptoms__list-item text lng-symptoms__list-item_5">Отеки ног, избыточная масса тела </li>
             </ul>
             <img src="img/simptoms/symptoms_pic.png" alt="" class="symptoms__img">
-            <a href="#form_2" class="symptoms__btn button lng-symptoms__btn">Избавиться от симптомов</a>
+            <a data-fancybox href="#hidden" class="symptoms__btn button lng-symptoms__btn">Узнать больше</a>
         </div>
     </section>
     <section class="reasons">
@@ -173,10 +191,11 @@
         <div class="sale__subtitle text">Закажите сейчас и мы доставим <br> в течение 24 часов <span> бесплатно</span></div>
         <form name="feedback" method="POST" action="" class="sale__form form">
 
-
-            <input type="text" name="name" required="required" placeholder="Имя" class="form__input">
-            <input type="text" name="phone" required="required" placeholder="Телефон" class="form__input">
-            <button type="submit" name="submit_btn" class="button form__button _mob lng-saleform__button-mob"></button>
+            
+            <div class="form__inputs-langs lng-sale__form__input_1"><input type="text" name="name" required="required" placeholder="Имя" class="form__input "></div>
+            <div class="form__inputs-langs lng-sale__form__input_2"><input type="text" name="phone" required="required" placeholder="Телефон" class="form__input"></div>
+            
+            <button type="submit" name="submit_btn" class="button form__button _mob  lng-saleform__button-mob"></button>
             <button type="submit" name="submit_btn" class="button form__button _desc lng-saleform__button-tab"></button>
 
         </form>
