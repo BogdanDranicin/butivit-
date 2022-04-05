@@ -12,12 +12,12 @@ const langArr = {
         "uz": "Arizangizni  qoldiring va hayotingizni o'zgartiring",
     },
     "main__form__input_1" :  {
-        "ru": "Имя",
-        "uz": "Ism",
+        "ru": `<input type="text" name="name" required="required" placeholder="Имя" class="form__input ">`,
+        "uz": `<input type="text" name="name" required="required" placeholder="Ism" class="form__input ">`,
     },
     "main__form__input_2" :  {
-        "ru": "Телефон",
-        "uz": "Telefon raqamingiz",
+        "ru": `<input type="text" name="phone" required="required" placeholder="Телефон" class="form__input">`,
+        "uz": `<input type="text" name="phone" required="required" placeholder="Telefon raqamingiz" class="form__input">`,
     },
     "form__button-mob" :  {
         "ru": "Отправить заявку",
@@ -26,6 +26,26 @@ const langArr = {
     "form__button-tab" :  {
         "ru": "Подать заявку",
         "uz": "Ariza qoldirish",
+    },
+    "form-title-popup" :  {
+        "ru": "Оставьте заявку <br> и измените свою жизнь ",
+        "uz": "Arizangizni  qoldiring <br> va hayotingizni o'zgartiring",
+    },
+    "form__input_1-popup" :  {
+        "ru": `<input type="text" name="name" required="required" placeholder="Имя" class="form__input ">`,
+        "uz": `<input type="text" name="name" required="required" placeholder="Ism" class="form__input ">`,
+    },
+    "form__button-mob-popup" :  {
+        "ru": "Отправить заявку",
+        "uz": "Ariza qoldirish",
+    },
+    "form__button-tab-popup" :  {
+        "ru": "Подать заявку",
+        "uz": "Ariza qoldirish",
+    },
+    "form__input_2-popup" :  {
+        "ru": `<input type="text" name="phone" required="required" placeholder="Телефон" class="form__input">`,
+        "uz": `<input type="text" name="phone" required="required" placeholder="Telefon raqamingiz" class="form__input">`,
     },
     "advantages__items-text_1" :  {
         "ru": "Восстановление правильного менструального цикла, устранение болей в «эти» дни",
@@ -154,6 +174,14 @@ const langArr = {
     "saleform__button-tab":  {
         "ru": "Подать заявку",
         "uz": "Ariza qoldirish",
+    },
+    "sale__form__input_1" :  {
+        "ru": `<input type="text" name="name" required="required" placeholder="Имя" class="form__input ">`,
+        "uz": `<input type="text" name="name" required="required" placeholder="Ism" class="form__input ">`,
+    },
+    "sale__form__input_2" :  {
+        "ru": `<input type="text" name="phone" required="required" placeholder="Телефон" class="form__input">`,
+        "uz": `<input type="text" name="phone" required="required" placeholder="Telefon raqamingiz" class="form__input">`,
     },
     "certificate__title":  {
         "ru": "Сертификаты соответствия",
