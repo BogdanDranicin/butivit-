@@ -760,7 +760,23 @@ img{
     }
 }
 
-
+.uz{
+    .may{
+        padding: 7.2rem 0 58rem;
+        background: url('../img/may/women-mob-uzb.png') center bottom / 35.5rem no-repeat, url('../img/may/bg.png') center top / 100% 100% no-repeat;
+        @media(min-width: 991px){
+            padding: 8.4rem 0 9.8rem;
+            background: url('../img/may/women-mob-uzb.png') right 8% bottom / 39rem no-repeat, url('../img/may/bg-tab.png') center top / 100% 100% no-repeat;
+        }
+        @media(min-width: 1440px){
+            padding: 12.8rem 0 8rem;
+            background: url('../img/may/women-desc-uzb.png') right 8% bottom / 45% no-repeat, url('../img/may/bg-tab.png') center top / 100% 100% no-repeat;
+        }
+        @media(min-width: 1800px){
+            background: url('../img/may/women-desc-uzb.png') right 20% bottom / 800px no-repeat, url('../img/may/bg-tab.png') center top / 100% 100% no-repeat;
+        }
+    }
+}
 
 .for-u{
     padding: 10.2rem 0 45.1rem;
