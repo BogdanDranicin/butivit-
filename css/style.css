@@ -448,13 +448,11 @@ img {
 
 .advantages {
   padding: 5.5rem 0;
-  background: url("../img/advantages/bg.png") left 48.7% top 20%/295% no-repeat;
   position: relative;
 }
 @media (min-width: 1440px) {
   .advantages {
     padding: 2rem 0 3rem;
-    background: url("../img/advantages/bg.png") left 48% top 18%/178% no-repeat;
   }
 }
 .advantages__img {
@@ -569,9 +567,10 @@ img {
   }
 }
 .advantages__items-img {
+  border-radius: 50%;
   width: 100%;
   max-width: 5.5rem;
-  max-height: 5.5rem;
+  max-height: 6em;
 }
 .symptoms {
   padding: 4rem 0;
