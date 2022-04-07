@@ -19,6 +19,10 @@ const langArr = {
         "ru": `<input type="text" name="phone" required="required" placeholder="Телефон" class="form__input">`,
         "uz": `<input type="text" name="phone" required="required" placeholder="Telefon raqamingiz" class="form__input">`,
     },
+    "main__book" :  {
+        "ru": `<img src="img/main/main_book.png" alt="" class="main__img">`,
+        "uz": `<img src="img/main/main_book-uzb.png" alt="" class="main__img">`,
+    },
     "form__button-mob" :  {
         "ru": "Отправить заявку",
         "uz": "Ariza qoldirish",
