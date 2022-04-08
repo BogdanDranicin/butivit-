@@ -1,11 +1,11 @@
 const langArr = {
     "main__title" :  {
         "ru": "Хотите улучшить женское здоровье и забеременеть?",
-        "uz": "Ayol salomatligingizni yaxshilashni va homilador bo'lishni xohlaysizmi?",
+        "uz": "Salomatligingizni yaxshilashni va homilador bo'lishni xohlaysizmi?",
     }, 
     "main__subtitle" :  {
         "ru": "Byuti Vit – природный продукт <br> для женщин любого возраста, который поможет Вам восстановить гормональный фон и зачать здорового ребёнка. ",
-        "uz": "Byuti Vit - barcha yoshdagi ayollar uchun ishlab chiqilgan tabiiy mahsulot bo'lib,  gormonal fonni  tiklashda va sog'lom homiladorikni boshlashda yordam beradi.",
+        "uz": "Byuti Vit - barcha yoshdagi ayollar uchun ishlab chiqarilgan tabiiy mahsulot bo'lib,  gormonal fonni  tiklashga va sog'lom homiladorikni boshlashga yordam beradi.",
     }, 
     "main__form-title" :  {
         "ru": "Оставьте заявку и измените свою жизнь ",
@@ -57,7 +57,7 @@ const langArr = {
     },
     "advantages__items-text_2" :  {
         "ru": "Уменьшение проявлений климактерического синдрома, заместительная терапия в период менопаузы",
-        "uz": "Klimaterik sindrmlarning kamyishi, menopauza davrida o'rin bosish terapiyasi",
+        "uz": "Klimaterik sindromlarning kamayishi, menopauza davrida o'rin bosish terapiyasi",
     },
     "advantages__items-text_3" :  {
         "ru": "Уменьшение проявлений предменструального синдрома (ПМС)",
@@ -65,11 +65,11 @@ const langArr = {
     },
     "advantages__items-text_4" :  {
         "ru": "Восстановление женского гормонального фона",
-        "uz": "Homila to'g'ri shakklanishi uchun homiladorlikka tayyorgarlik",
+        "uz": "Homilaning to’g’ri shakllanishi uchun homiladorlikka tayyorgarlik",
     },
     "advantages__items-text_5" :  {
         "ru": "Подготовка к беременности для правильного формирования плода",
-        "uz": "Yalig'lanish kasalliklarini davolash. Siydik-tanosil tizimining yallig'lanish kasalliklari: sistit, andeksit, pielonefrit, endometrit",
+        "uz": "Yallig’lanish kasalliklarini davolash. Siydik-tanosil tizimining yallig'lanish kasalliklari: sistit, andeksit, pielonefrit, endometrit",
     },
     "advantages__items-text_6" :  {
         "ru": "Устранение воспалительных заболеваний. Воспалительные заболевания мочеполовой системы – циститы, пиелонефриты, аднекситы, эндометриты",
@@ -81,7 +81,7 @@ const langArr = {
     },
     "symptoms__list-item_1" :  {
         "ru": "Все нарушения менструального цикла, особенно нерегулярность, обилие или скудность менструаций, боли и дискомфорт.  ",
-        "uz": "Hayz davrining  barcha turdagi  buzilishlari, shu hisobdan  tartibsizligi, hayz ko'rishning serob yoki kamligi, og'riq va noqulayliklar. ",
+        "uz": "Hayz davrining  barcha turdagi  buzilishlari, shu jumladan  tartibsizligi, hayz ko'rishning serob yoki kamligi, og'riq va noqulayliklar. ",
     },
     "symptoms__list-item_2" :  {
         "ru": "Хроническая усталость, нервозность, головная боль, повышенная потливость",
@@ -89,7 +89,7 @@ const langArr = {
     },
     "symptoms__list-item_3" :  {
         "ru": "Ускоренный рост волос в неподходящих для женщин участках тела ",
-        "uz": "Ayollar uchun tananing istalmagan qismlarida soch o'sishi tezlashishi",
+        "uz": "Ayollar uchun tananing istalmagan qismlarida soch o’sishining tezlashishi",
     },
     "symptoms__list-item_4" :  {
         "ru": "Снижение либидо, отсутствие комфорта во время интимной близости  ",
@@ -101,7 +101,7 @@ const langArr = {
     },
     "symptoms__btn" :  {
         "ru": "Избавьтесь от симптомов ",
-        "uz": "Alomatlardan halos bo’ling ",
+        "uz": "Alomatlardan xalos bo’ling ",
     },
     "reasons__title" :  {
         "ru": "Последствия <br> гормонального дисбаланса ",
@@ -129,11 +129,11 @@ const langArr = {
     },
     "may__title":  {
         "ru": "Возможно именно <br> вы окажетесь <br> на её месте! ",
-        "uz": "Balki aynan <br> sizning uning <br> o’rnida bo’lishingiz mumkin",
+        "uz": "Balki aynan <br> siz uning <br> o’rnida bo’lishingiz mumkin",
     },
     "may__text_1":  {
         "ru": "При планировании и подготовке к беременности необходимо устранить воспалительные заболевания мочеполовой системы – циститы, пиелонефриты, андекситы, эндометриты. Принимая бьютивит вы решите не только вышеперечисленные проблемы, но и ощутите прилив энергии и обеспечите комфортное протекание будущей беременности.",
-        "uz": "Homiladorlikni rejalashtirish va unga tayyorgarlik ko’rayotganda tanosil  a’zolarining yallig'lanish kasalliklaridan - sistit, pielonefrit, andeksit, endometritdan halos bo’lish kerak. ByutiVitni qabul qilish orqali siz nafaqat yuqoridagi muammolarni hal qilasiz, balki energiya zahirasi to’lganini his etib  kelajakdagi homiladorlikni normal kechishini ta'minlaysiz.",
+        "uz": "Homiladorlikni rejalashtirayotganda va unga tayyorgarlik ko’rayotganda tanosil  a’zolarining yallig'lanish kasalliklaridan - sistit, pielonefrit, andeksit, endometritdan xalos bo’lish kerak. ByutiVitni qabul qilish orqali siz nafaqat yuqoridagi muammolarni hal qilasiz, balki energiya zaxirasi to’lganini his etib  kelajakdagi homiladorlikni normal kechishini ta'minlaysiz.",
     },
     "may__text_2":  {
         "ru": "Бьюти Вит состоит из активных компонентов, которые подготавливают организм женщины к будущему материнству, обеспечивают нормальное развитие беременности на всех её стадиях. <span>При наступлении беременности, а также при лактации, прием препарата необходимо ПРЕКРАТИТЬ.</span>",
@@ -153,15 +153,15 @@ const langArr = {
     },
     "for-u__items-item_2":  {
         "ru": "Лечение гинеколога не дает желаемого результата",
-        "uz": "Ginekolog davolashi kerakli natijani erishishda yordam bermayatgan bo’lsa",
+        "uz": "Ginekologning davolashi kerakli natijaga erishishda yordam bermayotgan bo’lsa",
     },
     "for-u__items-item_3":  {
         "ru": "Причиной не наступления беремнности является гормональный дисбаланс и воспаления мочеполовой системы",
-        "uz": "Homiladorlik sodir  bo'lmaslikning sababi gormonal disbami va tanosil a’zolarining yallig'lanishi bo’lsa.",
+        "uz": "Homiladorlik sodir  bo'lmaslikning sababi gormonal disbalans va tanosil a’zolarining yallig'lanishi bo’lsa.",
     },
     "delivery__title":  {
         "ru": "ДЕЙСТВУЕТ <br> БЕСПЛАТНАЯ <br> ДОСТАВКА ПО ВСЕМУ <br> УЗБЕКИСТАНУ",
-        "uz": "O’zbekiston <br> bo’ylab bepul yetkazib <br>berish xizmati <br>amal qiladi",
+        "uz": "O’zbekiston <br> bo’ylab bepul yetkazib <br>berish xizmati <br>mavjud",
     },
     "delivery__text":  {
         "ru": "Срок доставки: <span> 1-2 дня </span><br> Форма оплаты:<span> наличные, Pay Me, Click, терминал</span>",
@@ -193,6 +193,6 @@ const langArr = {
     },
     "certificate__text":  {
         "ru": "Эти документы подтверждают соответствие продукции, вида деятельности или технических условий установленным санитарно-гигиеническим правилам и нормам.",
-        "uz": "Ushbu hujjatlar mahsulot, faoliyat turi yoki texnik shartlarning belgilangan sanitariya-gigiyena qoidalari va qoidalariga muvofiqligini tasdiqlaydi." ,
+        "uz": "Ushbu hujjatlar mahsulot, faoliyat turi yoki texnik shartlarning belgilangan sanitariya-gigiyena qonun va qoidalariga muvofiqligini tasdiqlaydi." ,
     },
 }
