@@ -5,7 +5,7 @@ const langArr = {
     }, 
     "main__subtitle" :  {
         "ru": "Byuti Vit – природный продукт <br> для женщин любого возраста, который поможет Вам восстановить гормональный фон и зачать здорового ребёнка. ",
-        "uz": "Byuti Vit - barcha yoshdagi ayollar uchun ishlab chiqarilgan tabiiy mahsulot bo'lib,  gormonal fonni  tiklashga va sog'lom homiladorikni boshlashga yordam beradi.",
+        "uz": "Byuti Vit - barcha yoshdagi ayollar uchun ishlab chiqarilgan tabiiy mahsulot bo'lib,  gormonal fonni  tiklashga va sog'lom himiladorlinki boshlashga yordam beradi.",
     }, 
     "main__form-title" :  {
         "ru": "Оставьте заявку и измените свою жизнь ",
@@ -13,7 +13,7 @@ const langArr = {
     },
     "main__form__input_1" :  {
         "ru": `<input type="text" name="name" required="required" placeholder="Имя" class="form__input ">`,
-        "uz": `<input type="text" name="name" required="required" placeholder="Ism" class="form__input ">`,
+        "uz": `<input type="text" name="name" required="required" placeholder="Sharifingiz" class="form__input ">`,
     },
     "main__form__input_2" :  {
         "ru": `<input type="text" name="phone" required="required" placeholder="Телефон" class="form__input">`,
@@ -37,7 +37,7 @@ const langArr = {
     },
     "form__input_1-popup" :  {
         "ru": `<input type="text" name="name" required="required" placeholder="Имя" class="form__input ">`,
-        "uz": `<input type="text" name="name" required="required" placeholder="Ism" class="form__input ">`,
+        "uz": `<input type="text" name="name" required="required" placeholder="Sharifingiz" class="form__input ">`,
     },
     "form__button-mob-popup" :  {
         "ru": "Отправить заявку",
@@ -69,7 +69,7 @@ const langArr = {
     },
     "advantages__items-text_5" :  {
         "ru": "Подготовка к беременности для правильного формирования плода",
-        "uz": "Yallig’lanish kasalliklarini davolash. Siydik-tanosil tizimining yallig'lanish kasalliklari: sistit, andeksit, pielonefrit, endometrit",
+        "uz": "Yallig’lanish kasalliklarini davolash. Siydik-tanosil tizimining yallig'lanish kasalliklari: sistit, endomerit, pielonefrit, endometrit",
     },
     "advantages__items-text_6" :  {
         "ru": "Устранение воспалительных заболеваний. Воспалительные заболевания мочеполовой системы – циститы, пиелонефриты, аднекситы, эндометриты",
@@ -81,7 +81,7 @@ const langArr = {
     },
     "symptoms__list-item_1" :  {
         "ru": "Все нарушения менструального цикла, особенно нерегулярность, обилие или скудность менструаций, боли и дискомфорт.  ",
-        "uz": "Hayz davrining  barcha turdagi  buzilishlari, shu jumladan  tartibsizligi, hayz ko'rishning serob yoki kamligi, og'riq va noqulayliklar. ",
+        "uz": "Hayz davrining barcha turdagi buzilishlari, shu jumladan tartibsizligi, hayz ko'rishning ko’p yoki kamligi, og'riq va noqulayliklar kuzatilishi.",
     },
     "symptoms__list-item_2" :  {
         "ru": "Хроническая усталость, нервозность, головная боль, повышенная потливость",
@@ -89,7 +89,7 @@ const langArr = {
     },
     "symptoms__list-item_3" :  {
         "ru": "Ускоренный рост волос в неподходящих для женщин участках тела ",
-        "uz": "Ayollar uchun tananing istalmagan qismlarida soch o’sishining tezlashishi",
+        "uz": "Ayollar uchun tananing nozik qismlarida soch o’sishining tezlashishi",
     },
     "symptoms__list-item_4" :  {
         "ru": "Снижение либидо, отсутствие комфорта во время интимной близости  ",
@@ -117,7 +117,7 @@ const langArr = {
     },
     "reasons__items-item_1":  {
         "ru": "Заболевания репродуктивной системы женщин, бесплодие",
-        "uz": "Ayollarda reproduktiv organlar kasalliklari, bepushtlik",
+        "uz": "Ayollarda reproduktiv organlardagi kasalliklari, bepushtlik",
     },
     "reasons__items-item_2":  {
         "ru": "Синдром поликистозных яичников (СПКЯ), эндометриоз, миомы",
@@ -129,15 +129,15 @@ const langArr = {
     },
     "may__title":  {
         "ru": "Возможно именно <br> вы окажетесь <br> на её месте! ",
-        "uz": "Balki aynan <br> siz uning <br> o’rnida bo’lishingiz mumkin",
+        "uz": "Siz aynan<br>uning o’rnida bo’lishingiz mumkin edi ",
     },
     "may__text_1":  {
         "ru": "При планировании и подготовке к беременности необходимо устранить воспалительные заболевания мочеполовой системы – циститы, пиелонефриты, андекситы, эндометриты. Принимая бьютивит вы решите не только вышеперечисленные проблемы, но и ощутите прилив энергии и обеспечите комфортное протекание будущей беременности.",
-        "uz": "Homiladorlikni rejalashtirayotganda va unga tayyorgarlik ko’rayotganda tanosil  a’zolarining yallig'lanish kasalliklaridan - sistit, pielonefrit, andeksit, endometritdan xalos bo’lish kerak. ByutiVitni qabul qilish orqali siz nafaqat yuqoridagi muammolarni hal qilasiz, balki energiya zaxirasi to’lganini his etib  kelajakdagi homiladorlikni normal kechishini ta'minlaysiz.",
+        "uz": "Homiladorlikni rejalashtirayotganingizda va unga tayyorgarlik ko’rayotganingizda tanosil a’zolarining yallig'lanish kasalliklaridan - sistit, pielonefrit, andeksit, endometritdan xalos bo’lishingiz lozim. ByutiVitni qabul qilish orqali siz nafaqat yuqoridagi muammolarni bartaraf etasiz, balki energiya zaxirasi to’lganini his etib, kelajakdagi homiladorlikni normal kechishini ta'minlaysiz.",
     },
     "may__text_2":  {
         "ru": "Бьюти Вит состоит из активных компонентов, которые подготавливают организм женщины к будущему материнству, обеспечивают нормальное развитие беременности на всех её стадиях. <span>При наступлении беременности, а также при лактации, прием препарата необходимо ПРЕКРАТИТЬ.</span>",
-        "uz": "Byutivit ayolning organizmini onalikka tayyorlashda yordam beradigan faol komponentlardan iborat bo'lib, homiladorlikning barcha bosqichlarida normal rivojlanishini ta'minlaydi. <span>Homiladorlik yuzaga  kelganda, shuningdek, laktatsiya davrida preparat qabuli TO'XTATILISHI KERAK</span>",
+        "uz": "Byutivit ayolning organizmini onalikka tayyorlashda yordam beradigan faol komponentlardan iborat bo'lib, homiladorlikning barcha bosqichlarida normal rivojlanishni ta'minlaydi.<span>Homiladorlik yuzaga kelganda, shuningdek, laktatsiya davrida preparat qabuli TO'XTATILISHI KERAK</span>",
     },
     "reviews__title":  {
         "ru": "Отзывы",
@@ -157,7 +157,7 @@ const langArr = {
     },
     "for-u__items-item_3":  {
         "ru": "Причиной не наступления беремнности является гормональный дисбаланс и воспаления мочеполовой системы",
-        "uz": "Homiladorlik sodir  bo'lmaslikning sababi gormonal disbalans va tanosil a’zolarining yallig'lanishi bo’lsa.",
+        "uz": "Homiladorlik sodir  bo’lmasligining sababi gormonal disbalans va tanosil a’zolarining yallig'lanishi bo’lsa.",
     },
     "delivery__title":  {
         "ru": "ДЕЙСТВУЕТ <br> БЕСПЛАТНАЯ <br> ДОСТАВКА ПО ВСЕМУ <br> УЗБЕКИСТАНУ",
@@ -181,7 +181,7 @@ const langArr = {
     },
     "sale__form__input_1" :  {
         "ru": `<input type="text" name="name" required="required" placeholder="Имя" class="form__input ">`,
-        "uz": `<input type="text" name="name" required="required" placeholder="Ism" class="form__input ">`,
+        "uz": `<input type="text" name="name" required="required" placeholder="Sharifingiz" class="form__input ">`,
     },
     "sale__form__input_2" :  {
         "ru": `<input type="text" name="phone" required="required" placeholder="Телефон" class="form__input">`,
